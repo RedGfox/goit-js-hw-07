@@ -12,3 +12,61 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/* ---------------------------task-1------------------------------------- */
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0;
+  list-style: none;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.item {
+  background-color: #f4f3ff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.name-item {
+  line-height: 133%;
+  font-size: 24px;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.elem-item {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.elem-name {
+  padding: 10px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+/* -----------------------task-2-------------------------------- */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
